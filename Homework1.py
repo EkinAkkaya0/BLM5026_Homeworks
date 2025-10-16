@@ -7,7 +7,6 @@ from typing import List, Tuple, Dict
 
 Point = Tuple[int, int]
 
-# random bir şekilde ikililerden oluşan bir array oluşturma
 def generate_points(n, width, height, seed) -> List[Point]:
 
     rng = random.Random(seed)
@@ -99,6 +98,7 @@ if __name__ == "__main__":
     
     draw_tour(G, pos, tour)
     
+
 
 
 
